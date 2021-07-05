@@ -1,0 +1,218 @@
+/* Layut
+____________*/
+
+html,
+body,
+#home {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    background: url(../imagens/plano-de-fundo.jpg);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar-transparente {
+    padding: 5px 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.divisor {
+    width: 2px;
+    background: white;
+    margin: 12px 15px;
+}
+
+
+/* Cabelo
+___________*/
+
+.lista5 {
+    color: white;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+/*Capa
+__________*/
+
+.capa {
+    text-align: center;
+}
+
+
+/*Texto principal*/
+
+.letra {
+    color: white;
+}
+
+p {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+
+/*Fotos da pagina principal*/
+
+.foto-principal {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*Tipografia
+_______________*/
+
+h1 {
+    /*font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;*/
+    color: black;
+}
+
+
+/* Formatação do produto*/
+
+.card {
+    border-top: 200px;
+    padding: 16px;
+}
+
+.card,
+.formatacao31 {
+    width: 420px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Rodapé
+__________*/
+
+footer {
+    background: #000;
+    padding: 50px 0 20px 0;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    font-size: 0.8em;
+    color: white;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+
+/* Sobre
+_____________*/
+
+.espaco {
+    margin: 50px -120px 50px -30px;
+}
+
+
+/*contato
+__________*/
+
+.p,
+.texto {
+    font-size: 1em;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: white;
+}
+
+.rodape {
+    color: white;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+}
